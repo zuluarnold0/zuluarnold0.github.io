@@ -1,0 +1,59 @@
+.work__main {
+    margin-bottom: 40px;
+}
+
+.title {
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+.msg {
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+
+.project__main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project__box {
+    width: 204px;
+    margin: 20px;
+}
+
+.project__box img {
+    border: 2px solid rgb(125, 139, 153);
+    width: 200px;
+    height: 160px;
+}
+
+.project, .demo, .github {
+    padding: 5px 0 5px 5px;
+    margin-bottom: 2px;
+}
+
+.project:hover, .demo:hover, .github:hover {
+    background-color: #555;
+}
+
+.project span, .demo span, .github span {
+    padding-left: 2px;
+    color: #111;
+}
+
+.project {
+    border: 2px solid rgb(125, 139, 153);
+    background-color: #fff;
+}
+
+.demo {
+    background-color: rgb(125, 139, 153);
+}
+
+.github {
+
+    
+    background-color: #555;
+}

@@ -1,0 +1,32 @@
+.about__main {
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 0 50px 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .about__main {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .about__main {
+        width: 100%;
+    }
+}
+
+.about__img {
+    padding: 10px;
+}
+
+.about__img img {
+    width: 160px;
+    height: 160px;
+    border: 2px solid crimson;
+    border-radius: 80px;
+}
+
+.about__bio p {
+    padding: 10px;
+}

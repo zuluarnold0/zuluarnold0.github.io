@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu__main {
+    width: 80%;
+    margin: 100px auto;
+    line-height: 30px;
+    text-align: center;
+}
+
+.menu__list ul {
+    list-style-type: none;
+}
+
+.menu__list a {
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.menu__list a:hover {
+    color: red;
+    font-size: large;
+}
